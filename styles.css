@@ -1,0 +1,76 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    height: 50%;
+    width: 100%;
+    background-image: url(https://fglprdwebsitewebapp.azureedge.net/media/6cef725e-7e44-41f4-9330-c5797e8ff660/h3kdRA/MARQUES/CCM/FW22/Desktop/2022CCM_EndBanner_Desktop.jpg);
+    background-image: linear-gradient(rbga(4,9,30,0.7));
+    background-position: center;
+    background-size: cover;
+}
+.banner{
+    color: black;
+    position: absolute;
+    
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+    width: 10px;
+    height: 100px;
+    zoom: 0;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    padding-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+
+li {
+    float: left;
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rgb(58, 58, 58);
+  }
+
+.bannerblack {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding-top: 0;
+    margin-top: 0;
+    position: fixed;
+    left: 0%;
+    padding: 0%;
+    margin: 0%;
+}
