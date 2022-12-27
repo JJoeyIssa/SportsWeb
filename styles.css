@@ -11,6 +11,16 @@
     background-position: center; 
     background-size: cover;
 }
+
+.banner3 {
+    height: 140px;
+    width: 100%; 
+    background-image: url(https://www.saskatoon.ca/sites/default/files/documents/indoor_rinks.jpg);
+    background-image: linear-gradient(rbga(4,9,30,0.7));
+    background-position: center; 
+    background-size: cover;
+}
+
 .banner{
     color: black;
     position: absolute;
@@ -98,7 +108,7 @@ li a:hover {
     font-weight: bolder;
     padding-left: 0px;
     margin-left: 0%;
-    color: rgb(204, 226, 245);
+    color: rgb(255, 255, 255);
     width: 98%;
     margin-left: 2px;
     margin-top: 10px;
@@ -108,14 +118,27 @@ li a:hover {
 
 }
 .profiletext {
-    color: aliceblue;
+    color: rgb(231, 244, 255);
     width: 98%;
-    margin-left: 1%;
+    margin-left: 10px;
+    margin-right: 10px;
     font-size: 20px;
     margin-top: 10px;
-    margin-right: 10px;
     padding-left: 2px;
     align-content: center;
+}
+
+.profiletext2 {
+    color: rgb(231, 244, 255);
+    width: 98%;
+    margin-left: 50px;
+    margin-right: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    padding-left: 2px;
+    align-content: center;
+    position: relative; 
+    display: flex;
 }
 
 .bannerblackpadding {
@@ -129,3 +152,34 @@ li a:hover {
     margin: 0%;
 
 }
+
+a:link { 
+    text-decoration: none; 
+    color: white;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: white;
+}
+
+.location {
+    display:flex;
+}
+
+.map {
+    position: static; 
+    margin-left: 50px;
+    padding-left: 10px;
+    margin-right: auto;
+    height: 100%;
+    width: 60%;
+    overflow-y: hidden;
+
+}
+
+.centered-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
