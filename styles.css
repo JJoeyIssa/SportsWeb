@@ -30,8 +30,10 @@
     background-image: linear-gradient(rbga(4,9,30,0.7));
     background-position: center; 
     background-size: cover;
-    padding: 10px;
-    padding-left: 2px;
+    margin:0%;
+    padding-top: 10px;
+/*    padding: 10px;
+    padding-left: 2px; */
 }
 
 
@@ -217,4 +219,14 @@ a:visited {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+.displayimage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 18%;
+    height: auto;
+    padding: 10px;
+    color: white;
   }
