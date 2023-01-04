@@ -230,3 +230,10 @@ a:visited {
     padding: 10px;
     color: white;
   }
+
+.bordercheck {
+    border-width: 2px;
+    border-style: solid; 
+    border-color: white;
+    position: static;
+  }
